@@ -6,25 +6,37 @@
 
 // Code Here
 
+let lovesCode = true
+
 //////////////////STEP 2////////////////////
 //Create a variable called age that is your age as a number
 
 // Code Here
+
+let age = 26
 
 //////////////////STEP 3////////////////////
 //Create a variable called name that is your name as a string
 
 // Code Here
 
+let name = 'Nate'
+
 //////////////////STEP 4////////////////////
 //Create a variable called phrase that is initially set as an empty string
 
 // Code Here
 
+let phrase = 'I love code'
+
 //////////////////STEP 5////////////////////
 //Create an if statement that checkes to see if the lovesCode variable is equal to true, if it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
 
 // Code Here
+
+if(lovesCode === true){
+    console.log(phrase)
+}
 
 //////////////////Wrap Up////////////////////
 // Refresh the index.html page in your browser. You should now see a poem that uses the variables from above.
